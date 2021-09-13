@@ -1,9 +1,5 @@
 package BaekJoon
 
-package Code
-
-
-
 fun main(args: Array<String>) {
     var arr = IntArray(10036)
 
