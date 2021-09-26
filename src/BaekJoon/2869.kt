@@ -1,7 +1,5 @@
 package BaekJoon
 
-package Code
-
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
