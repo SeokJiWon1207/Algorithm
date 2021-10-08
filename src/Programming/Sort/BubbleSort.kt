@@ -10,7 +10,7 @@ fun main() {
     //정렬이 필요한 배열
     val arr = arrayListOf(5, 2, 3, 4, 1)
 
-    print("정렬되기 전 상태 :")
+    print("정렬되기 전 상태 : ")
     for (beforeSort in arr) {
         print("${beforeSort}")
     }
