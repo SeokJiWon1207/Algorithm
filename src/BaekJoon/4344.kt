@@ -3,6 +3,7 @@ package BaekJoon
 import java.util.*
 
 fun main() = with(Scanner(System.`in`)) {
+
     val num = nextInt()
 
     repeat(num) {
@@ -31,6 +32,7 @@ private fun totalScore(array: IntArray): Int {
 }
 
 private fun average(total: Int, peoples: Int) = total / peoples
+
 private fun overPeople(array: IntArray, averageScore: Int): Int {
     var overPeople = 0
     for (i in array.indices) {

@@ -13,11 +13,13 @@ fun main(args: Array<String>) {
     }
 
     var sum = 0.0
+
     Arrays.sort(array)
 
     for (i in 0 until array.size) {
         sum += array.get(i) / array.get(array.size - 1) * 100
     }
+
     System.out.print(sum / array.size)
 
 }
